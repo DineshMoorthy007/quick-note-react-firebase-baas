@@ -86,7 +86,7 @@ export const AuthPage: React.FC = () => {
       <div className="auth-card">
         {/* Logo */}
         <div className="auth-header">
-          <div className="logo-icon">📋</div>
+          <img src="/favicon.svg" alt="Quick-Note" className="logo-icon" />
           <h1>Quick-Note</h1>
         </div>
 

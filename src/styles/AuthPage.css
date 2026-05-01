@@ -1,19 +1,19 @@
 .auth-container {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   min-height: 100vh;
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  padding: 40px 20px 80px 20px;
+  padding: 20px;
 }
 
 .auth-card {
   background: white;
   border-radius: 12px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-  padding: 60px 50px;
+  padding: 48px 40px;
   width: 100%;
-  max-width: 450px;
+  max-width: 420px;
 }
 
 /* Left-align headings and labels inside the auth card */
@@ -28,19 +28,21 @@
 .auth-header {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 40px;
+  gap: 10px;
+  margin-bottom: 32px;
 }
 
 .logo-icon {
-  font-size: 32px;
+  width: 36px;
+  height: 36px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .auth-header h1 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   color: #000;
   margin: 0;
@@ -48,18 +50,18 @@
 
 /* Title Section */
 .auth-title-section {
-  margin-bottom: 30px;
+  margin-bottom: 26px;
 }
 
 .auth-title-section h2 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 700;
   color: #1a1a1a;
-  margin: 0 0 8px 0;
+  margin: 0 0 5px 0;
 }
 
 .auth-title-section p {
-  font-size: 14px;
+  font-size: 13px;
   color: #7b8b9a;
   margin: 0;
 }
