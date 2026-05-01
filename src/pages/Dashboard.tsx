@@ -169,7 +169,7 @@ export const Dashboard: React.FC = () => {
       {/* Header */}
       <header className="dashboard-header">
         <div className="header-left">
-          <div className="logo">📋</div>
+          <img src="/favicon.svg" alt="Quick-Note" className="logo-icon" />
           <h1>Quick-Note</h1>
         </div>
 
@@ -207,7 +207,7 @@ export const Dashboard: React.FC = () => {
             className="new-note-button"
             disabled={isLoading}
           >
-            + New Note
+            New Note
           </button>
         </div>
 
